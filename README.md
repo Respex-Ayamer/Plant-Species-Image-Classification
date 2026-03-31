@@ -23,10 +23,13 @@ The image classification model aims to:
 ##
 
 ## II. Plants Species
-### 1. Monstera Deliciosa
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Monstera%20Deliciosa.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 1. Monstera Deliciosa |
+|----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Monstera%20Deliciosa.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Monstera, Swiss Cheese Plant
 #### Scientific Name: Monstera deliciosa
@@ -35,10 +38,13 @@ The image classification model aims to:
 
 ---
 
-### 2. Bird of Paradise
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Bird%20of%20Paradise.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 2. Bird of Paradise |
+|----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Bird%20of%20Paradise.jfif" height="500" width="400"/> |
+
+</div
 
 #### Common Name: Bird of Paradise
 #### Scientific Name: Strelitzia reginae
@@ -47,10 +53,13 @@ The image classification model aims to:
 
 ---
 
-### 3. Banana Plant
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Banana%20Plant.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 3. Banana Plant |
+|----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Banana%20Plant.jfif" height="500" width="400"/> |
+
+</div
 
 #### Common Name: Banana Plant
 #### Scientific Name: Musa spp.
@@ -59,10 +68,13 @@ The image classification model aims to:
 
 ---
 
-### 4. Areca Palm
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Areca%20Palm.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 4. Areca Palm |
+|----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Areca%20Palm.jfif" height="500" width="400"/> |
+
+</div
 
 #### Common Name: Areca Palm
 #### Scientific Name: Dypsis lutescens
@@ -71,10 +83,13 @@ The image classification model aims to:
 
 ---
 
-### 5. Majesty Palm
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Majesty%20Palm.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 5. Majesty Palm |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Majesty%20Palm.jfif" height="500" width="400"/> |
+
+</div
 
 #### Common Name: Majesty Palm
 #### Scientific Name: Ravenea rivularis
@@ -83,10 +98,14 @@ The image classification model aims to:
 
 ---
 
-### 6. Kentia Palm
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Kentia%20Palm.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 6. Kentia Palm |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Kentia%20Palm.jfif" height="500" width="400"/> |
+
+</div>
+
 
 #### Common Name: Kentia Palm
 #### Scientific Name: Howea forsteriana
@@ -95,10 +114,13 @@ The image classification model aims to:
 
 ---
 
-### 7. Fiddle Leaf Fig
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Fiddle%20Leaf%20Fig.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 7. Fiddle Leaf Fig |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Fiddle%20Leaf%20Fig.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Fiddle Leaf Fig
 #### Scientific Name: Ficus lyrata
@@ -107,10 +129,13 @@ The image classification model aims to:
 
 ---
 
-### 8. Rubber Plant
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Rubber%20Plant.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 8. Rubber Plant |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Rubber%20Plant.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Rubber Plant
 #### Scientific Name: Ficus elastica
@@ -119,10 +144,13 @@ The image classification model aims to:
 
 ---
 
-### 9. Philodendron
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Philodendron.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 9. Philodendron |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Philodendron.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Philodendron
 #### Scientific Name: Philodendron spp.
@@ -131,10 +159,13 @@ The image classification model aims to:
 
 ---
 
-### 10. Pothos
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Pothos.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 10. Pothos |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Pothos.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Pothos
 #### Scientific Name: Epipremnum aureum
@@ -143,10 +174,13 @@ The image classification model aims to:
 
 ---
 
-### 11. Calathea
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Calathea.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 11. Calathea |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Calathea.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Calathea
 #### Scientific Name: Calathea spp.
@@ -155,10 +189,13 @@ The image classification model aims to:
 
 ---
 
-### 12. Prayer Plant
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Prayer%20Plant.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 12. Prayer Plant |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Prayer%20Plant.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Prayer Plant
 #### Scientific Name: Maranta leuconeura
@@ -167,10 +204,13 @@ The image classification model aims to:
 
 ---
 
-### 13. Alocasia
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Alocasia.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 13. Alocasia |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Alocasia.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Alocasia (Elephant Ear)
 #### Scientific Name: Alocasia spp.
@@ -179,10 +219,13 @@ The image classification model aims to:
 
 ---
 
-### 14. Anthurium
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Anthurium.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 14. Anthurium |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Anthurium.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Anthurium, Flamingo Flower
 #### Scientific Name: Anthurium andraeanum
@@ -191,10 +234,13 @@ The image classification model aims to:
 
 ---
 
-### 15. Peace Lily
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Peace%20Lily.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 15. Peace Lily |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Peace%20Lily.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Peace Lily
 #### Scientific Name: Spathiphyllum spp.
@@ -203,10 +249,13 @@ The image classification model aims to:
 
 ---
 
-### 16. Hibiscus
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Hibiscus.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 16. Hibiscus |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Hibiscus.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Hibiscus
 #### Scientific Name: Hibiscus rosa-sinensis
@@ -215,10 +264,13 @@ The image classification model aims to:
 
 ---
 
-### 17. Croton
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Croton.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 17. Croton |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Croton.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Croton
 #### Scientific Name: Codiaeum variegatum
@@ -227,10 +279,13 @@ The image classification model aims to:
 
 ---
 
-### 18. Ti Plant
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Ti%20Plant.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 18. Ti Plant |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Ti%20Plant.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Ti Plant
 #### Scientific Name: Cordyline fruticosa
@@ -239,10 +294,13 @@ The image classification model aims to:
 
 ---
 
-### 19. Heliconia
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Heliconia.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 19. Heliconia |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Heliconia.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Heliconia
 #### Scientific Name: Heliconia rostrata
@@ -251,10 +309,13 @@ The image classification model aims to:
 
 ---
 
-### 20. Plumeria
-<p align="center">
-  <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Plumeria.jfif" height="500" width="400"/>
-</p>
+<div align="center">
+
+| 20. Plumeria |
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Plumeria.jfif" height="500" width="400"/> |
+
+</div>
 
 #### Common Name: Plumeria / Frangipani
 #### Scientific Name: Plumeria spp.
@@ -280,5 +341,12 @@ The image classification model aims to:
 
 ##
 
-### Training Settings Screenshot
 
+
+<div align="center">
+
+| Training Settings Screenshot |
+|-----------------------------|
+| <img src="https://raw.githubusercontent.com/Respex-Ayamer/Plant-Species-Image-Classification/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Monstera%20Deliciosa.jfif" height="1000" width="500"/> |
+
+</div>
