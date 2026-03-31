@@ -324,7 +324,7 @@ The image classification model aims to:
 
 ---
 
-## III. Train the Model
+## III. Model Training Details 
 ### Training Parameters
 
 | Parameter         | Value    | Justification |
@@ -341,12 +341,412 @@ The image classification model aims to:
 
 ##
 
-
-
 <div align="center">
 
 | Training Settings Screenshot |
 |-----------------------------|
-| <img src="https://raw.githubusercontent.com/Respex-Ayamer/Plant-Species-Image-Classification/85e5e63ccfdc84514013d0d46fae738356ca6fa9/Monstera%20Deliciosa.jfif" height="1000" width="500"/> |
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/f5d80c98c1bdeb76fcfc63d25e2d9c030860f5ba/Training%20Settings.png" height="1000" width="500" /> |
 
 </div>
+
+> Explanation: For training the plant species classification model, 85 epochs were chosen to allow multiple passes over the dataset of 5,000 images across 20 classes, ensuring the model could learn complex features such as leaf shape, bark texture, and flower patterns while avoiding overfitting. A batch size of 16 was selected to balance memory efficiency with stable gradient updates; this size allows the model to process multiple images simultaneously, introducing enough variability in each update to improve generalization without overwhelming system resources. The learning rate of 0.00125 was used to control the step size of weight updates, yielding gradual, stable convergence. This value is small enough to prevent overshooting optimal parameters but sufficient to allow the model to effectively fine-tune its weights within 85 epochs, which is particularly important in transfer learning scenarios like Teachable Machine. Together, these parameters create a balanced training setup that maximizes learning while maintaining model stability and generalization.
+
+---
+
+## IV. Model Evaluation 
+
+| Accuracy Per Class | 
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/27334fbc3635f13345370af0c9ea57ae8b0f1e38/Accuracy%20per%20class.png" height="500" width="1000" /> |
+
+| Confusion Matrix  | 
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/27334fbc3635f13345370af0c9ea57ae8b0f1e38/Confusion%20Matrix.png" height="500" width="1000" /> |
+
+| Accuracy Per Epoch & Loss Per Epoch | 
+|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/27334fbc3635f13345370af0c9ea57ae8b0f1e38/Accuracy%20per%20epoch.png" height="500" width="1000" /> |
+
+---
+
+## V. Model Testing
+### 1. Monstera Deliciosa
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Monstera%20Deliciosa_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Monstera%20Deliciosa_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Monstera Deliciosa
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 2. Bird of Paradise
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Bird%20of%20Paradise_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Bird%20of%20Paradise_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Bird of Paradise
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 3. Banana Plant
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Banana%20Plant_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Banana%20Plant_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Banana Plant
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 4. Areca Palm
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Areca%20Palm_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Areca%20Palm_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Areca Palm
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 5. Majesty Palm
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Majesty%20Palm_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Majesty%20Palm_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Majesty Palm
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 6. Kentia Palm
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Kentia%20Palm_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Kentia%20Palm_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Kentia Palm
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 7. Fiddle Leaf Fig
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Fiddle%20Leaf%20Fig_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Fiddle%20Leaf%20Fig_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Fiddle Leaf Fig
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 8. Rubber Plant
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Rubber%20Plant_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Rubber%20Plant_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Rubber Plant
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 9. Philodendron
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Philodendron_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Philodendron_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Philodendron
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 10. Pothos
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Pothos_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Pothos_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Pothos
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 11. Calathea
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Calathea_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Calathea_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Calathea
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 12. Prayer Plant
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Prayer%20Plant_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Prayer%20Plant_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Prayer Plant
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 13. Alocasia
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Alocasia_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Alocasia_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Alocasia
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 14. Anthurium
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Anthurium_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Anthurium_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Anthurium
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 15. Peace Lily
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Peace%20Lily_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Peace%20Lily_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Peace Lily
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 16. Hibiscus
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Hibiscus_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Hibiscus_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Hibiscus
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 17. Croton
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Croton_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Croton_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Croton
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 18. Ti Plant
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Ti%20Plant_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Ti%20Plant_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Ti Plant
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 19. Heliconia
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Heliconia_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Heliconia_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Heliconia
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+##
+
+### 20. Plumeria
+
+<div align="center">
+
+| Testing | Output |
+|-----------------------------|-----------------------------|
+| <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Plumeria_Testing.png" height="400" width="300" /> | <img src="https://github.com/Respex-Ayamer/Plant-Species-Image-Classification/blob/ba9835890dd268e3a3a053d42eea742decdc47de/Plumeria_Output.png" height="400" width="300" /> |
+
+</div>
+
+### Result:
+> Predicted Plant Class: Plumeria
+
+> Confidence Score: 100%
+
+> Status: Correct
+
+---
+
