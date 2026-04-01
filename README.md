@@ -748,5 +748,67 @@ The image classification model aims to:
 
 > Status: Correct
 
+##
+
+### Testing Summary
+
+<div align="center">
+
+| Predicted Plant Class | Confidence Score | Status |
+|-|-|-|
+| 1. Monstera Deliciosa | 100% | Correct |
+| 2. Bird of Paradise | 100% | Correct |
+| 3. Banana Plant | 100% | Correct |
+| 4. Areca Palm | 100% | Correct |
+| 5. Majesty Palm | 100% | Correct |
+| 6. Kentia Palm | 100% | Correct |
+| 7. Fiddle Leaf Fig | 100% | Correct |
+| 8. Rubber Plant | 100% | Correct |
+| 9. Philodendron | 100% | Correct |
+| 10. Pothos | 100% | Correct |
+| 11. Calathea | 100% | Correct |
+| 12. Prayer Plant | 100% | Correct |
+| 13. Alocasia | 100% | Correct |
+| 14. Anthurium | 100% | Correct |
+| 15. Peace Lily | 100% | Correct |
+| 16. Hibiscus  | 100% | Correct |
+| 17. Croton | 100% | Correct |
+| 18. Ti Plant | 100% | Correct |
+| 19. Heliconia | 100% | Correct |
+| 20. Plumeria | 100% | Correct |
+
+</div>
+
 ---
 
+## VI. Reflection
+### Answer the following questions based on your experience: 
+1. How did the number of images per class affect your model’s accuracy?
+
+The number of images per class had a significant impact on the model’s accuracy. By maintaining a minimum of 250 images per class, the dataset became more balanced, which helped the model learn each tree species more effectively. Having enough images provided better variation in lighting, angles, and backgrounds, allowing the model to generalize well to new inputs. If some classes had fewer images, the model would likely become biased toward classes with more data, resulting in lower accuracy and higher misclassification rates.
+
+##
+
+2. Which plant species were most commonly misclassified and why?
+
+Plant species with similar visual characteristics were the most commonly misclassified. For example, plants with similar leaf shapes, colors, or textures, such as different types of palms or broad-leaf ornamental plants, tended to confuse the model. This is because the model relies heavily on visual patterns, and when features overlap between classes, it becomes harder to distinguish them. Variations in image quality, lighting, and background also contributed to misclassification.
+
+##
+
+3. How did changing the epochs, batch size, or learning rate affect the training results?
+
+Adjusting these parameters had a noticeable effect on training performance. Increasing the number of epochs improved the model’s ability to learn patterns, but too many epochs risked overfitting. Changing the batch size affected training stability. Smaller batch sizes improved generalization but made training noisier, while larger batch sizes made training smoother but required more memory. The learning rate had a critical role in convergence; a higher learning rate caused unstable training and overshooting, while a lower learning rate made training slower but more stable. The chosen values (85 epochs, batch size of 16, and learning rate of 0.00125) provided a balanced and stable training process.
+
+##
+
+4. What challenges did you encounter during dataset collection and labeling?
+
+One of the main challenges was collecting a sufficient number of high-quality images for each plant species while maintaining consistency. Some species were harder to find, which made it difficult to achieve a balanced dataset. Another challenge was ensuring accurate labeling, as visually similar plants could easily be mislabeled. Additionally, variations in lighting, background clutter, and image resolution introduced noise into the dataset, which could affect model performance.
+
+##
+
+5. If you were to improve your model, what specific changes would you make and why?
+
+To improve the model, several enhancements could be made. First, increasing the dataset size beyond 250 images per class would provide more variation and improve generalization. Second, applying data augmentation (such as rotation, flipping, and brightness adjustments) would help the model become more robust to different conditions. Third, fine-tuning more layers of the pretrained model could improve feature extraction. Lastly, testing different hyperparameters (such as slightly adjusting the learning rate or batch size) and evaluating performance using validation metrics would help further optimize accuracy and reduce misclassification.
+
+---
